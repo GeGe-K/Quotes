@@ -1,27 +1,49 @@
 # Quotes
+## Autour
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.
+Gloria Givondo
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a web-page that allows the user to add quotes, up-vote the ones they like and down-vote the awful ones.
 
-## Code scaffolding
+## Tech Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. HTML
+2. CSS and bootstrap
+3. Javascript
+4. Git
+5. Angular 6
+6. Typescript
+7. Atom text editor
 
-## Build
+## How to use
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1. A user fills the "Add Quote" form. He/she has to fill all the fields otherwise the user will not be allowed to submit it.
+2. After filling in the user can submit. The quote will be added at the bottom.
+3. The user can up-vote a quote. The quote with the highest up-votes will be highlighted.
+4. The user can also down-vote quotes that they don't like.
+5. The user can delete a quote
 
-## Running unit tests
+## Prerequisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. To clone this project to your local folder, you will first need to install git. Use this command in your terminal $ #### sudo apt install git-all
+2. The user will also require angular #### $ npm install -g @angular/cli
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Setup
 
-## Further help
+1. To access this project, you will need to clone it.
+2. Use this command in your terminal. git clone https://github.com/GeGe-K/Quotes
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Known Bugs
+
+There are no known bugs. Contact gloriagivondo@gmail.com in-case of any bugs.
+
+## Live Site
+
+You can view the live site https://GeGe-K.github.io/Quotes/
+
+## License
+
+This project is under the MIT license.
