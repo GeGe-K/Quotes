@@ -1,1 +1,4 @@
-<p>{{quote.publisher}}</p>
+<p>Posted by {{quote.publisher}} ,{{quote.lapse|lapse}} day[s] ago</p>
+<div class="info" *ngFor='let quote of quotes; let i=index'></div>
+<button (click)="upvote.emit()">👍🏾</button>{{quote.upvote}}
+<button (click)="downvote.emit()">👎🏾</button>{{quote.downvote}}
