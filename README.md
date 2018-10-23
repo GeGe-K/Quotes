@@ -1,7 +1,8 @@
 # Quotes
+
 ## Autour
 
-Gloria Givondo
+### *Gloria Givondo* (2018/10/22)
 
 ## Description
 
@@ -25,10 +26,10 @@ This is a web-page that allows the user to add quotes, up-vote the ones they lik
 4. The user can also down-vote quotes that they don't like.
 5. The user can delete a quote
 
-## Prerequisites
+## Pre-requisites
 
-1. To clone this project to your local folder, you will first need to install git. Use this command in your terminal $ #### sudo apt install git-all
-2. The user will also require angular #### $ npm install -g @angular/cli
+1. To clone this project to your local folder, you will first need to install git. Use this command in your terminal ```$ sudo apt install git-all```
+2. The user will also require angular ```$ npm install -g @angular/cli```
 
 
 ## Setup
@@ -46,4 +47,5 @@ You can view the live site https://GeGe-K.github.io/Quotes/
 
 ## License
 
-This project is under the MIT license.
+The content of this site is license under the MIT license
+Copyright (c) 2018 **Gloria**
