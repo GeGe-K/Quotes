@@ -2,7 +2,7 @@
     width: 50%;
 } */
 #form{
-    position: fixed;
+    position: static;
     border: 1px solid black;
     width: 30%;
     padding: 30px;
