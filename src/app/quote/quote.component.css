@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+.card{
+    margin-bottom:50px; 
+    padding:5%;
+}
+.card button {
+    width: 100px;
+}
+.deletebtn {
+    float: left;
+}
+.delete {
+    float: right;
+}
+.author{
+    text-align: right;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.quote{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin-bottom: -20px;
+}

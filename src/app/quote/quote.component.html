@@ -1,14 +1,22 @@
-<h1>WHO SAID?</h1>
+<h1>WHO SAID THIS?</h1>
 <div class="container">
   <div class="row">
-    <app-quote-form></app-quote-form>
-  </div>
+    <div class= "col-md-6">
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
 
-</div>
-<ul>
-  <div *ngFor='let quote of quotes;let i = index'>
-    <li>{{quote.name}}</li>
-    <button (click)='toogleDetails(i)'>Details</button>
-    <app-quote-details *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>
+    <div class="col-md-6">
+        <div class="card" *ngFor='let quote of quotes;let i = index'>
+            <p class="quote">"{{quote.name}}"</p>
+            <p class="author">~{{quote.author}}~</p>
+            
+            <div class="deletebtn">
+                <button (click)='toogleDetails(i)'>Details</button>
+                <button class="btn-danger delete" (click)="deleteQuote(i)">Delete</button>
+            </div>
+            <app-quote-details (upvote)="upVote($event,i)" (downvote)="downVote($event,i)" *ngIf="quote.showDescription" [quote]='quote'></app-quote-details>           
+          </div>
+    </div>
+ 
   </div>
-</ul>
+</div>
