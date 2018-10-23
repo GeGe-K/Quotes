@@ -7,8 +7,8 @@ import { Quote } from "../quote"
 })
 export class QuoteComponent implements OnInit {
   quotes=[
-    new Quote('Live one day at a time emphasizing ethics rather than rules.', 'Wayne Dyre','Gloria',new Date(),0,0),
-    new Quote('Obstacles are those frightful things you see when you take your eyes off your goal.','Theodore Rossevelt','Jane',new Date(),0,0)
+    new Quote('Live one day at a time emphasizing ethics rather than rules.', 'Wayne Dyre','Gloria',new Date(2018,9,20),0,0),
+    new Quote('Obstacles are those frightful things you see when you take your eyes off your goal.','Theodore Rossevelt','Jane',new Date(2018,9,21),0,0)
   ]
   addNewQuote(quote){
     let quotelength = this.quotes.length;
